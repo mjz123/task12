@@ -1,0 +1,126 @@
+html {
+  font-size: 62.5%;
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  overflow: hidden; }
+
+header {
+  height: 5rem;
+  background: #5fc0cd; }
+  header span {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    header span .employer {
+      background: #55a8b3;
+      border: 0;
+      color: #fff;
+      margin-right: -0.2rem; }
+    header span .employee {
+      border: 0;
+      color: #5fc0cd; }
+  header img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    margin-right: 3%;
+    width: 2.5rem; }
+
+main {
+  flex: 1;
+  overflow-y: scroll; }
+
+.sel {
+  display: flex; }
+  .sel select {
+    flex: 1 1 0;
+    height: 3rem;
+    text-indent: 30%;
+    text-align: center;
+    border-top: none; }
+
+.form {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+  .form li {
+    list-style: none;
+    padding: 1.3rem 3rem;
+    border-bottom: 0.1rem solid #999;
+    width: 100%; }
+    .form li p {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden; }
+      .form li p i {
+        background-image: url(img/img2.png);
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-right: 0.2rem; }
+
+.msg1 {
+  color: #999; }
+
+.msg2 span {
+  vertical-align: middle; }
+
+.date {
+  margin-left: 1.8rem; }
+
+.wages {
+  float: right; }
+  .wages img {
+    margin-left: 1.5rem;
+    vertical-align: middle; }
+  .wages span {
+    vertical-align: middle;
+    color: red; }
+
+.msg3 {
+  color: #999;
+  margin: 0; }
+  .msg3 i {
+    background-image: url(img/img2.png);
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-position: 0 -1.5rem; }
+
+.foot {
+  height: 5rem;
+  background: #f8fafb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .foot button {
+    border: 0;
+    background: #f8fafb; }
+    .foot button p {
+      font-size: 1rem;
+      margin-top: 0.8rem;
+      margin-bottom: 0; }
+
+.homepage p {
+  color: #5fc0cd; }
+
+.mine p {
+  color: #a5a5a5; }
+
+.homepage img {
+  height: 2rem; }
+
+.write img {
+  width: 4.5rem; }
+
+.mine img {
+  height: 2rem; }
+
+/*# sourceMappingURL=task12-2.css.map */
